@@ -1,0 +1,28 @@
+{
+  "name": "tailwind-reverse-inspector",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b --noEmit && node scripts/build.mjs",
+    "watch": "node scripts/build.mjs --watch",
+    "lint": "oxlint"
+  },
+  "dependencies": {
+    "extpay": "^3.1.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.3.7",
+    "@types/node": "^24.19.2",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "esbuild": "^0.28.2",
+    "oxlint": "^1.89.0",
+    "typescript": "~7.0.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
+  }
+}
